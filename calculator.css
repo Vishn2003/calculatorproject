@@ -1,0 +1,32 @@
+body {
+        display: flex;
+        justify-content: center;  /* Centers horizontally */
+        align-items: center;      /* Centers vertically */
+        height: 100vh;            /* Full viewport height */
+        margin: 0;                /* Remove default margin */
+      }
+
+.box{
+    border: 2px solid rgb(128, 127, 127);
+    border-radius: 4px;
+    width: 200px;
+    height: 400px;
+}
+#display{
+    width:80%;
+    font-size: 25px;
+    margin: 15px;
+
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
